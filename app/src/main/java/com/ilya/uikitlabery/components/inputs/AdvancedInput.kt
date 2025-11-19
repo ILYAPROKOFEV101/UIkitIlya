@@ -143,7 +143,7 @@ fun SmallNumberInput(
                 style = BodyMedium,
                 color = Neutral500
             )
-        },
+        }, // new
         enabled = enabled,
         singleLine = true,
         colors = OutlinedTextFieldDefaults.colors(

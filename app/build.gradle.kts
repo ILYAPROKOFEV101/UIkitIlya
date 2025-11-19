@@ -40,7 +40,7 @@ android {
 }
 
 // Переменные для версии
-val libraryVersion = "1.0.0"
+val libraryVersion = "1.1.0"
 val libraryGroupId = "com.github.ILYAPROKOFEV101" // Для JitPack используйте ваш GitHub username
 
 afterEvaluate {

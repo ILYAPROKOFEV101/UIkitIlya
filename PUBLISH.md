@@ -127,7 +127,7 @@ JitPack автоматически собирает библиотеку из Gi
    git add .
    git commit -m "Initial commit"
    git branch -M main
-   git remote add origin https://github.com/ilyaprokofev/UIkitlabery.git
+   git remote add origin https://github.com/ILYAPROKOFEV101/UIkitIlya.git
    git push -u origin main
    ```
 
@@ -154,9 +154,9 @@ JitPack автоматически собирает библиотеку из Gi
    Добавьте зависимость в `build.gradle.kts`:
    ```kotlin
    dependencies {
-       implementation("com.github.ilyaprokofev:UIkitlabery:1.0.0")
+       implementation("com.github.ILYAPROKOFEV101:UIkitIlya:1.0.0")
        // или для последнего коммита:
-       // implementation("com.github.ilyaprokofev:UIkitlabery:main-SNAPSHOT")
+       // implementation("com.github.ILYAPROKOFEV101:UIkitIlya:main-SNAPSHOT")
    }
    ```
 
@@ -167,7 +167,7 @@ JitPack автоматически собирает библиотеку из Gi
 
 ### Проверка на JitPack:
 
-После создания релиза, проверьте на https://jitpack.io/#ilyaprokofev/UIkitlabery
+После создания релиза, проверьте на https://jitpack.io/#ILYAPROKOFEV101/UIkitIlya
 
 ---
 
@@ -183,7 +183,7 @@ GitHub Packages позволяет публиковать библиотеку �
 
 2. **Добавьте токен в `gradle.properties`** (в корне проекта):
    ```properties
-   gpr.user=ilyaprokofev
+   gpr.user=ILYAPROKOFEV101
    gpr.token=YOUR_GITHUB_TOKEN
    ```
 
@@ -203,9 +203,9 @@ GitHub Packages позволяет публиковать библиотеку �
            mavenCentral()
            maven {
                name = "GitHubPackages"
-               url = uri("https://maven.pkg.github.com/ilyaprokofev/UIkitlabery")
+               url = uri("https://maven.pkg.github.com/ILYAPROKOFEV101/UIkitIlya")
                credentials {
-                   username = "ilyaprokofev"
+                   username = "ILYAPROKOFEV101"
                    password = "YOUR_GITHUB_TOKEN"
                }
            }
@@ -216,7 +216,7 @@ GitHub Packages позволяет публиковать библиотеку �
    Добавьте зависимость:
    ```kotlin
    dependencies {
-       implementation("com.github.ilyaprokofev:uikitlabery:1.0.0")
+       implementation("com.github.ILYAPROKOFEV101:UIkitIlya:1.0.0")
    }
    ```
 

@@ -23,7 +23,7 @@ dependencyResolutionManagement {
 
 ```kotlin
 dependencies {
-    implementation("com.github.ilyaprokofev:UIkitlabery:1.0.0")
+    implementation("com.github.ILYAPROKOFEV101:UIkitIlya:1.0.0")
 }
 ```
 
